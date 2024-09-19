@@ -79,7 +79,7 @@ const MapComponent = () => {
         waypoints: [
           L.latLng(start.lat, start.lng),
           L.latLng(end.lat, end.lng),
-        ],createMarker: () => null,
+        ],createMarker: () => null,//remove un wanted markers
       })
         .on('routesfound', (e) => {
           const route = e.routes[0];
