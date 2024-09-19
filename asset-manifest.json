@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vehicalMovement/static/css/main.e4c0760c.css",
-    "main.js": "/vehicalMovement/static/js/main.2966472b.js",
+    "main.js": "/vehicalMovement/static/js/main.e9cdc34d.js",
     "static/js/453.8ab44547.chunk.js": "/vehicalMovement/static/js/453.8ab44547.chunk.js",
     "static/media/carIcon.png": "/vehicalMovement/static/media/carIcon.cc1ac549b2c30deed562.png",
     "static/media/mapIcon (2).png": "/vehicalMovement/static/media/mapIcon (2).0c7e3830012698f139e9.png",
     "index.html": "/vehicalMovement/index.html",
     "main.e4c0760c.css.map": "/vehicalMovement/static/css/main.e4c0760c.css.map",
-    "main.2966472b.js.map": "/vehicalMovement/static/js/main.2966472b.js.map",
+    "main.e9cdc34d.js.map": "/vehicalMovement/static/js/main.e9cdc34d.js.map",
     "453.8ab44547.chunk.js.map": "/vehicalMovement/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4c0760c.css",
-    "static/js/main.2966472b.js"
+    "static/js/main.e9cdc34d.js"
   ]
 }
