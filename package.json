@@ -1,5 +1,5 @@
 {
-  "homepage":"https://vinodparepalli/github.io/vehicalMovement",
+  "homepage": "https://vinodparepalli/github.io/vehicalMovement",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "gh-pages": "^6.1.1"
   }
 }
