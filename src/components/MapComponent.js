@@ -30,6 +30,8 @@ const MapComponent = () => {
     };
   }, []);
 
+  const FailArray=[{"start":{"lat":28.238,"lng":83.9956},"end":{"lat":28.237,"lng":83.995}},{"start":{"lat":28.237,"lng":83.995},"end":{"lat":28.236,"lng":83.994}},{"start":{"lat":28.236,"lng":83.994},"end":{"lat":28.235,"lng":83.993}},{"start":{"lat":28.235,"lng":83.993},"end":{"lat":28.234,"lng":83.992}},{"start":{"lat":28.234,"lng":83.992},"end":{"lat":28.233,"lng":83.991}}];
+
   useEffect(() => {
     // Fetch multiple coordinates from the backend
     const fetchCoordinates = async () => {
@@ -37,6 +39,7 @@ const MapComponent = () => {
         const response = await axios.get('http://localhost:8080/api/coordinates'); 
         setCoordinates(response.data);
       } catch (error) {
+        setCoordinates(FailArray)
         console.error('Error fetching coordinates:', error);
       }
     };
@@ -99,6 +102,7 @@ const MapComponent = () => {
 
   return (
     <div style={{ width: '100%', height: '100vh' }}>
+      <h1 style={{textAlign:'center'}}>vehical movement Application</h1>
       <div id="map" ref={mapRef} style={{ width: '100%', height: '80vh' }}>
       </div>
       <div style={{ padding: '10px', textAlign: 'center' }}>
